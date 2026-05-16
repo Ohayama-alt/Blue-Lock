@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+
+    <title>
+        Neo Egoist League Selection
+    </title>
+
+    <link rel="stylesheet"
+        href="style.css" />
+</head>
+
+<body>
+
+    <div class="overlay"></div>
+
+    <div class="container">
+
+        <h1>
+            NEO EGOIST LEAGUE
+        </h1>
+
+        <p class="subtitle">
+            Descubra qual filosofia combina
+            com seu ego.
+        </p>
+
+        <div id="quiz">
+
+            <div class="question active">
+
+                <h2>
+                    1. O que define um
+                    jogador perfeito?
+                </h2>
+
+                <button onclick="answer('bastard')">
+                    Disputa por um objetivo.
+                </button>
+
+                <button onclick="answer('manshine')">
+                    Melhora individual.
+                </button>
+
+                <button onclick="answer('barcha')">
+                    Imprevisibilidade e criatividade.
+                </button>
+
+                <button onclick="answer('juventus')">
+                    Estratégia e racionalidade.
+                </button>
+
+                <button onclick="answer('pxg')">
+                    Talento e egoismo.
+                </button>
+
+            </div>
+
+            <div class="question">
+
+                <h2>
+                    2. Como você destruiria
+                    um adversário?
+                </h2>
+
+                <button onclick="answer('bastard')">
+                    Esperando ele agir e se movendo
+                    em prol de esmaga-lo em campo.
+                </button>
+
+                <button onclick="answer('manshine')">
+                    Superando ele em
+                    caracteristicas fisicas.
+                </button>
+
+                <button onclick="answer('barcha')">
+                    Demonstrando sua criatividade
+                    e seu monstro interior.
+                </button>
+
+                <button onclick="answer('juventus')">
+                    Demonstrando sua racionalidade
+                    e seu instinto.
+                </button>
+
+                <button onclick="answer('pxg')">
+                    Provando que seu ego
+                    é superior ao dele.
+                </button>
+
+            </div>
+
+            <div class="question">
+
+                <h2>
+                    3. Qual é seu maior ego?
+                </h2>
+
+                <button onclick="answer('bastard')">
+                    Ser o maior em campo.
+                </button>
+
+                <button onclick="answer('manshine')">
+                    Ser individual.
+                </button>
+
+                <button onclick="answer('barcha')">
+                    Fazer jogadas ilogicas.
+                </button>
+
+                <button onclick="answer('juventus')">
+                    Vencer de forma gratificante.
+                </button>
+
+                <button onclick="answer('pxg')">
+                    Prazer.
+                </button>
+
+            </div>
+
+        </div>
+
+        <div id="result" class="hidden">
+
+            <h2 id="result-title"></h2>
+
+            <img id="result-image"
+                src=""
+                alt="Time">
+
+            <p id="result-text"></p>
+
+            <button onclick="location.reload()">
+                Refazer Seleção
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
